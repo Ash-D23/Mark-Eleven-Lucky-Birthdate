@@ -9,6 +9,10 @@ btn.addEventListener("click", luckyornot)
 
 function luckyornot(){
   var x=user_date.value
+  if (x===""){
+    alert("enter date")
+    return
+  }
   var year = x.substring(0, 4)
   var month = x.substring(5, 7)
   var day = x.substring(8, 10)
@@ -19,7 +23,10 @@ function luckyornot(){
     final += Number(total[i])
   }
 
-
+  if(isNaN(num.value)){
+    alert("Enter Number")
+    return
+  }
   var lucky = final%Number(num.value)
 
   if(lucky==0){

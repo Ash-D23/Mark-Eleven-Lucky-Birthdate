@@ -12,3 +12,9 @@ HTML CSS JS
 ### Demo Link:
 
 https://wizardly-lewin-2b61c9.netlify.app
+
+### App Functionalities
+
+ - Enter the Birthdate
+ - Enter the lucky number and Click Submit
+ - Output will be shown below the button
